@@ -44,8 +44,8 @@ describe 'the Friday test :)' do
     expect(n).to eq [4, 5, 6, 7]
   end
 
-  xspecify 'add_element_to_beginning_of_array' do
-    n = add_element_to_beginning_of_array [2, 3, 4, 5], 1 # should this all be enclosed in another array
+  specify 'add_element_to_beginning_of_array' do
+    n = add_element_to_beginning_of_array([2, 3, 4, 5], 1) # should this all be enclosed in another array
     expect(n).to eq [1, 2, 3, 4, 5]
   end
 
@@ -54,11 +54,11 @@ describe 'the Friday test :)' do
     expect(n).to eq ['puma', 'maker', 'sky']
   end
 
-  xspecify 'get_first_half_of_string' do
+  specify 'get_first_half_of_string' do
     a = get_first_half_of_string 'banana'
     b = get_first_half_of_string 'apple'
     expect(a).to eq 'ban'
-    expect(b).to eq 'app' # should this be 'ap'?
+    expect(b).to eq 'app'
   end
 
   specify 'make_numbers_negative' do

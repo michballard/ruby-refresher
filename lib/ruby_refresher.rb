@@ -27,8 +27,8 @@ def all_elements_except_first_3(array)
   return array
 end
 
-def add_element_to_beginning_of_array(array)
-  array.rotate.flatten
+def add_element_to_beginning_of_array(array, element)
+  array.unshift(element)
 end
 
 def array_sort_by_last_letter_of_word(array)
@@ -36,7 +36,7 @@ def array_sort_by_last_letter_of_word(array)
 end
 
 def get_first_half_of_string(string)
-  string.slice(0, (string.length / 2))
+  string.slice(0, (string.length / 2.0).round)
 end
 
 def make_numbers_negative(number)
