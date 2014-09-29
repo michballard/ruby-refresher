@@ -83,3 +83,10 @@ def get_elements_until_greater_than_five(array)
   array[0..5]
 end
 
+def convert_array_to_a_hash(array)
+  Hash[*array.flatten]
+end
+
+def get_all_letters_in_array_of_words(array)
+  array.join("").split("").sort
+end
