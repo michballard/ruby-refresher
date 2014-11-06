@@ -4,7 +4,7 @@
 Ruby Refresher
 ==============
 
-This exercise was designed to revisit the basics of Ruby.  A series of rspec test questions were given and we needed to design methods to pass these tests.  
+This exercise was designed to revisit the basics of Ruby.  A series of rspec test questions were given by Makers Academy and I designed the methods to pass these tests.  
 
 Technologies used
 -----------------
